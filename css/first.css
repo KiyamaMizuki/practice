@@ -5,47 +5,87 @@ h1{
     margin: 0;
 }
 
-.content{
+.content{ 
     background-color: #fff;
-    width: 600px;
-    margin: 10px auto;
+    width: 800px;
+    margin: auto;
     border: 1px solid #d1d1d1;
-    padding: 30px;
+    padding: 0px;
+}
+
+.img_center{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 780px;
+  height: 320px;
+  object-fit: cover; 
+}
+.img_center:hover{
+    opacity: .5;
 }
 
 input{
     border-bottom: 1px solid #d1d1d1;
     font-size: 1.2em;
-    /*width: 100%;*/
+    width: 100%;
     padding: 8px;
 }
-
+/*
 button{
-    width: 100%;
+    width: 90%;
     background-color: #2096F3;
     color: #fff;
     padding: 15px;
     border-radius: 3px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .4);
 }
+*/
+.menu_button{
+    width: 164px;
+    height: 80px;
+    margin: 5px;
+    background: url(../image/nisioisin.png);
+    display: inline-block;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px #555;
+    background-color: dodgerblue;
+}
+.menu_button:hover{
+    opacity: .5;
+    background-blend-mode:lighten;
+}
 
 .control{
-    margin-bottom: 3em;
+    margin: 3em;
 }
+
 label{
     /*display: block;*/
     margin-bottom: .5em;
 }
-/*
-.content{
+
+.required{
+    margin-left: .3em; /*左の余白を0.3em（一文字の30%）に*/
+    color: #f33;
+    font-size: .9em; /*ファントサイズを0.9倍する*/
+    padding: 3px; /*要素内余白を3pxに*/
+    background-color: #fee;
+    font-weight: bold; /*文字の太さ*/
+}
+body{
+    /*background-color: #fafafa;*/
+}
+
+.bac{
+    position: static;
     background-attachment: fixed;
+    background-position: center center;
     background-image: url('../image/kissshot.jpg');
     background-size: cover;
-    margin: 10px auto;
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(255,255,255,0.8);
     background-blend-mode:lighten;
     border: 1px solid #d1d1d1;
-    padding: 30px;
     background-repeat: no-repeat;
 }
-*/
